@@ -1,7 +1,5 @@
 server:
   port: 8080
-  servlet:
-    context-path: /myproject
 
 eureka:
   client:
@@ -13,7 +11,7 @@ eureka:
 
 spring:
   application:
-    name: eureka-client
+    name: myproject
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5433/postgres
